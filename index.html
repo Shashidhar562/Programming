@@ -1,156 +1,89 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="utf-8">
-  <title>HTML Basics</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-  <div id="wrapper" >
-    <div id="main" >
-      <div id="container">
-        <div id="content" role="main">
-          <!-- TODO: Content goes here -->
-          <div style="text-align:center;">
-            <img src="logo.png" alt="EPAM" style="width:100px;height:60px;">
-          </div>
-          <h1> HTML Elements </h1>
-          <hr>
-          &ensp;<a class="active" href="#home"><b>Home</b></a>&emsp;&emsp;
-          <a href="#news"><b>Headers</b></a>&emsp;&emsp;
-          <a href="#news"><b>Table</b></a>&emsp;&emsp;
-          <a href="#news"><b>List</b></a>&emsp;&emsp;   
-          <a href="#news"><b>Text formats</b></a>&emsp;&emsp;     
-          <a href="#about"><b>Block qotes</b></a>
-          <hr>
-          <p> Pay attendtion to h1 tag inside section element. Font-size for h1 is the same as font-size for h2, because we have to use only one h1 on
-            the page, and it is commonly used inside header </p>
-           <h2> Heading 2 </h2>
-           <h3> Heading 3 </h3>
-           <h4> Heading 4 </h4>
-           <h5> Heading 5 </h5>
-           <h6> Heading 6 </h6>
-           <br>
-           <p>
-            Lorem ipsum dolor sit amet, <a href="#">test link</a> adipiscing elit. <strong>This is strong</strong>. Nullam dignissim convallis est. Quisque aliquam. <em>This is emphasized</em>. Donec faucibus. Nunc iaculis suscipit dui. 5<sup>3</sup> = 125. Water is H<sub>2</sub>O. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. <i>The New York Times</i> (That’s a citation).<u>Underline.</u> Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.
-          </p>
-          <hr>
-          <p>
-            HTML and CSS are our tools. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus. To copy a file type COPY <i>filename.</i> <s>Dinner`s at 5:00.</s> <mark>Let’s make that 7.</mark> This <s>text</s> has been struck.
-          </p>
-          <br>
-          <hr>
-          <h2>Table</h2>
-          <br>
-          <table>
-            <tr>
-              <th>Header</th>
-              <th>Header</th>
-              <th>Header</th>
-            </tr>
-            <tr>
-              <td>Lviv</td>
-              <td>Kyiv</td>
-              <td>Kharkiv</td>
-            </tr>
-            <tr>
-              <td>Odessa</td>
-              <td>Zhytomyr</td>
-              <td>Dnipro</td>
-            </tr>
-            <tr>
-              <td>Sumy</td>
-              <td>Chernivtsi</td>
-              <td>Lutsk</td>
-            </tr>
-          </table>
-          <br>
-          <h2>Unordered List</h2>
-          <ul>
-            <li>List item 1</li>
-            <li>List item 2
-            <ul>
-              <li>some nested list item 1</li>
-            </ul></li>
-            <li>List item 3</li>
-          </ul>
-          
-          <h2>Ordered List</h2>
-          
-          <ol>
-            <li>list item 1</li>
-            <li>list item 2
-            <ol>
-              <li>some nested list item 1</li>
-            </ol></li>
-            <li>list item 3</li>
-          </ol>
-          <h3>Definition List</h3>
-          <dl>
-            <dt>defines terms 1</dt>
-            <dd>description 1</dd>
-            <dt>defines terms 2</dt>
-            <dd>description 2</dd>
-          </dl>
-          <label>Details</label>
-          <select>
-            <option>HTML</option>
-            <option>CSS</option>
-            <option>JS</option>
-          </select>
-          <hr>
-          <h2>Text formats</h2>
-          <h3>Article Text</h3>
-          <article>
-            <h2>Article title</h2>
-            <p>Article descriptiom</p>
-          </article>
-          <h3>Preformatted Text</h3>
-            <pre>
-        <b>Text</b>
-              in a pre element
-                is displayed in a fixed-width
-            font, and it preserves
-            both           spaces and
-                line breaks
-
-            </pre>
-            <h3>Code</h3>
-            <pre><code>.wrapper {
-              display: flex;
-              vertical-align: middle;
-              justify-content: center;
-            }</code></pre>
-            
-      <h2>Blockquotes</h2>
-      <p>Let’s keep it simple. Italics are good to help set it off from the body text. Be sure to style the citation.</p>
-        <blockquote>
-          "If you go back a few hundred years, what we take for granted today would seem like magic-being able to talk to people over long distances, to transmit images, flying, accessing vast amounts of data like an oracle. These are all things that would have been considered magic a few hundred years ago."            
-         <br><a href="#">Elon Musk</a>
-        </blockquote>   
-      <hr>
-      <div style="text-align:right;">
-      <label>First name:</label>
-      <input type="text"><br><br>
-      <label>surname:</label>
-      <input type="text"><br><br>
-      <label>Email:</label>
-      <input type="email"><br><br>
-      <textarea name="comments"  cols="30" rows="10"></textarea><br>
-
-      <!--  -->
-      <input type="submit" value="submit" style="width:80px;height:20px;">
-    </div>
-    <footer> 
-© Copyright Epam Systems
-    </footer>
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Document</title> 
+    <script src="main.js"></script>
+</head> 
+<body style="margin: 0%;"> 
+    <div id="block2" style="display: flex;"> <!-- place-content:space-around;"> --> 
+        <div id="b2img" style="display:flex; justify-content: center;align-items: center; width: 50%;"> 
+            <img  src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg" alt="csk" /> 
+ 
+        </div>   
+        <div id="b2_content" style="text-align: center; width: 50%; font-family: papyrus;"> 
+            <h1> IARE</h1> 
+            <h4>Engineering college</h4> 
+            <div> 
+                <button style="background-color: black;
+                padding: 6px;
+                color: white;
+                border-radius: 5px;">Explore More</button> 
+            </div> 
+ 
+        </div> 
+    </div> 
+    <div style="margin-top: 40px; font-family: papyrus;"> 
+        <div> 
+            <center> 
+                <h1>Services</h1> 
+            </center> 
+             
+        </div> 
+    <div style="display: flex; place-content: space-around; margin-top: 40px;"> 
+        <div> 
+            <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg" alt="" style="height: 180px;"/> 
+        </div> 
+        <div> 
+            <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg" alt="" style="height: 180px;"/> 
+        </div> 
+        <div> 
+            <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg" alt="" style="height: 180px;"/> 
+        </div> 
+    </div> 
+    <div>
+        <div>
+            <p> dob</p>
+            <input type="time">
+            <input type="date">
         </div>
-      </div>
+        <div>
+            <input type="file">
+        </div>
+        <div>
+            <p>price range</p>
+            <input type="range" min="0" max="1000">
+        </div>
+        <div>
+            <p> age</p>
+            <input type="number" min="0" max="100">
+        </div>
+        <div>
+            <p>choose a color</p>
+            <input type="color">
+        </div>
+        <div>
+            <form>
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname"><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname"><br>
+                <label for="username">Username:</label><br>
+                <input type="text" id="username" name="username"><br>
+                <label for="pwd">Password:</label><br>
+                <input type="password" id="pwd" name="pwd">
+              </form>
+        </div>
+        <div>
+            <p> opinion</p>
+            <textarea name="opinion" id="" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <input type="text" x-webkit-speech>
+        </div>
     </div>
-  </div>
-</body>
-
+</div> 
+</body> 
 </html>
-      
